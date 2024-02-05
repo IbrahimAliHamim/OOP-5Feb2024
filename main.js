@@ -55,6 +55,7 @@ let obj = new Laptop()
 
 // ---------Static Keyword & How it works
 
+/*--------
 class person{
   firstName="Jack"
   lastName="Ma"
@@ -65,3 +66,27 @@ class person{
 }
 
 person.addTwo(6,7)
+----------*/
+
+
+// ---------Inheritance
+
+/*
+class Father{
+  addTwo(a,b){
+    console.log(a+b);
+  }
+}
+
+
+// -----Inheritance & Properties Overriding
+class Son extends Father{
+  addTwo(a,b){
+    console.log(a-b);
+  }
+}
+
+let SonObj = new Son();
+SonObj.addTwo(40,50);
+-------------------------*/
+
