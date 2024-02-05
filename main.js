@@ -37,6 +37,7 @@ console.log(LaptopObj.ram);
 
 // -------Constructor function & how it works inside class
 
+/*
 class Laptop{
   //This bonus function will execute automatically
   constructor(a,b){
@@ -46,5 +47,21 @@ class Laptop{
   }
 }
 
-let obj = new Laptop() // () is called constructor
+let obj = new Laptop()
+*/
 
+// () is called constructor
+
+
+// ---------Static Keyword & How it works
+
+class person{
+  firstName="Jack"
+  lastName="Ma"
+
+  static addTwo=(a,b)=>{
+    console.log(a+b);
+  }
+}
+
+person.addTwo(6,7)
